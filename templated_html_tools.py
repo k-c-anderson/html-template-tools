@@ -121,9 +121,9 @@ def pdf_command(args):
 
 def main():
     parser = argparse.ArgumentParser(
-        prog='ProgramName',
-        description='What the program does',
-        epilog='Text at the bottom of help',
+        prog='HTML template tools',
+        description='Tools for manipulating HTML templates and creating PDFs',
+        # epilog='Text at the bottom of help',
     )
     subparsers = parser.add_subparsers(help='subcommand help', required=True)
     parser_template = subparsers.add_parser(
