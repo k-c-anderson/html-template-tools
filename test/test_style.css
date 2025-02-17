@@ -1,0 +1,11 @@
+@page {size: Letter;margin:0;}
+body,div {margin:0;padding:0;}
+.page {position:relative;width:8.48in;height:10.98in;background-color:#ffffff;border-width:1px;border-style:solid;border-color:black;page-break-after:always;}
+.top-section-row {min-height:15%;max-height:25%;width:100%}
+.footable,.footd {border-width:1px;border-style:solid;border-color:black;margin:0;padding:0;}
+.patient-box {}
+.patient-item {margin:0;font-size:14px;}
+.summary-box {border-width:1px;border-style:solid;border-color:black;padding:2px;}
+.summary-item {padding-top:5px; margin:0;font-size:14px;}
+.logo-panel {vertical-align:top;padding:5px;text-align:center;padding-top:5px;}
+.company-name {margin-top:10px;margin-bottom:0px;font-size:14px;}

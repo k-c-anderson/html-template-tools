@@ -1,0 +1,43 @@
+<div class="page">
+  <table class="top-section-row">
+    <tr>
+      <td style="width:30%;vertical-align:top;padding:5px;">
+	<div class="patient-box">
+	  <p class="patient-item">Name: {NAME}</p>
+	  <p class="patient-item">DOB: {DOB}</p>
+	  <p class="patient-item">MRN: {MRN}</p>
+	  <p class="patient-item">Order Accession: {ACCESSION}</p>
+	  <p class="patient-item">Ordering Physician: {PHYSICIAN}</p>
+	  <p class="patient-item">Collection Date: {COLLECTION_DATE}</p>
+	  <p class="patient-item">Reported Date: {REPORTED_DATE}</p>
+	</div>
+      </td>
+      <td style="width:40%;vertical-align:top;padding:5px">
+	<div class="summary-box">
+	  <p style="text-align:center;margin:5px;"><strong>SUMMARY</strong></p>
+	  <p class="summary-item"><strong>Summary 1:</strong> {SUMMARY1}</p>
+	  <p class="summary-item"><strong>Summary 2:</strong> {SUMMARY2}</p>
+	  <p class="summary-item"><strong>Summary 3</strong> {SUMMARY3}</p>
+	</div>
+      </td>
+      <td class="logo-panel" style="width:30%">
+	<div>
+	  {LOGO_IMAGE}
+	  
+	  <p class="company-name">Company Name</p>
+	  <strong>{DX_NAME}</strong>
+	</div>
+      </td>
+    </tr>
+  </table>
+
+  <div class="chart">
+    <h2>Example SVG Chart</h2>
+    {CHART}
+  </div>
+</div>
+
+<div class="page">
+  <h1>Page 2</h1>
+  {PAGE2_CONTENT}
+</div>

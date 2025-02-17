@@ -1,0 +1,16 @@
+{
+    "NAME": "Jane Doe",
+    "DOB": "12/12/1912",
+    "MRN": "X12345678910",
+    "ACCESSION": "ABC134",
+    "PHYSICIAN": "Doc Brown",
+    "COLLECTION_DATE": "10/12/2024",
+    "REPORTED_DATE": "10/20/2024",
+    "SUMMARY1": "Result <strong>POSITIVE</strong>",
+    "SUMMARY2": "Result <strong><em>NOT</em> POSITIVE</strong>",
+    "SUMMARY3": "Result <strong><en>NOT</em> INTERPRETABLE",
+    "LOGO_IMAGE": "<img class=\"logo-image\" src=\"resources/logo.png\" width=\"50%\"></img>",
+    "DX_NAME": "My Test&copy;",
+    "PAGE2_CONTENT": "{PAGE2}",
+    "CHART": "<img class=\"logo-image\" src=\"resources/test_chart.svg\"></img>"
+}
